@@ -1,0 +1,17 @@
+body {
+	padding-bottom: 64px;
+	background-color: #FAFAFA;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+li::before {
+	content: "--";
+	display: inline-block;
+	width: 2em;
+	margin-left: -2em;
+}
